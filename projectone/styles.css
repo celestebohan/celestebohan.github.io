@@ -1,0 +1,48 @@
+html{
+  background-color: #839AAA;
+}
+/*
+html{
+background-image:url(./images/background.jpg);
+}
+*/
+h1{
+  font-size: 37pt;
+  text-align: center;
+  color: #FFFFFF;
+  position: absolute;
+  top: 275px;
+  left: 500px;
+}
+
+#antigone{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  color: #D6D6D6;
+
+}
+
+#antigone2{
+  position:  absolute;
+  top: 600px;
+  left: 800px;
+  color: #ffffff;
+}
+
+#location1{
+  position: absolute;
+  top: 325px;
+  left: 575px;
+  font-size: 18px;
+  color: #D6D6D6;
+
+}
+
+a:hover{
+  color: #9A7662;
+}
+
+a:visited{
+  color:white;
+}
