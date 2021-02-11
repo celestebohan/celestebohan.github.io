@@ -1,0 +1,86 @@
+html{
+  background-color: #06121D;
+}
+
+.blob{
+  width: 400px;
+  height: 400px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 5px;
+  top: 50px;
+
+}
+
+.blob2{
+  width: 400px;
+  height: 400px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+
+
+}
+
+.blob3{
+  width: 400px;
+  height: 400px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 1000px;
+  top: 75px;
+
+
+}
+
+.blob4{
+  width: 400px;
+  height: 400px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 1500px;
+  top: 35px;
+
+
+}
+.blob5{
+  width: 400px;
+  height: 400px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 2000px;
+  top: 300px;
+
+
+}
+
+#p1{
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  color: white;
+
+}
+
+.blob:hover {
+  box-shadow: 0 0 100px;
+}
+.blob2:hover {
+  box-shadow: 0 0 100px;
+}.blob3:hover {
+  box-shadow: 0 0 100px;
+}.blob4:hover {
+  box-shadow: 0 0 100px;
+}.blob5:hover {
+  box-shadow: 0 0 100px;

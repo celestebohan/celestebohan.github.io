@@ -1,0 +1,46 @@
+@font-face {
+  font-family: futura;
+  src: url(./FuturaBook.woff);
+}
+
+
+h1{
+  font-size: 62pt;
+  font-family: futura;
+  position:absolute;
+  mix-blend-mode:color-burn;
+  right: 300px;
+  top: 300px;
+  color: purple;
+  text-shadow: 0px,0px,8px,green;
+
+}
+h2{
+  font-size: 24pt;
+  font-family: futura;
+
+}
+p{
+  font-size: 12pt;
+  font-family: futura;
+  color: grey;
+}
+
+#bio{
+  position: absolute;
+  right: 7px;
+  top: 10px;
+}
+
+html{
+  background-image: linear-gradient(to top left, purple, green);
+  background-attachment: fixed;
+  font-family: futura;
+}
+img{
+  height: 125%;
+  width: 125%;
+  right: auto;
+
+}
+*/
