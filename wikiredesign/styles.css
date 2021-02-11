@@ -16,6 +16,27 @@
   font-family: spacegroteskregular;
   src:url(SpaceGrotesk-Regular.woff);
 }
+
+@keyframes blink {
+  	0% {background-color: lightblue;}
+  	25%{background-color: crimson;}
+  	50%{background-color:chartreuse;}
+  	75%{background-color: yellow;}
+  	100%{background-color: magenta;}
+
+}
+#contents{
+  color: purple;
+  background-color: green;
+}
+a:link{
+  color: green;
+  background-color: purple;
+}
+
+a:visited{
+  color: green;
+}
 h1{
   font-size: 62pt;
   font-family: futura;
@@ -37,15 +58,15 @@ h2{
 }
 p{
   font-size: 12pt;
-  font-family: spacegroteskregular;
+  font-family: futura;
   color: darkgrey;
 }
 
 blockquote{
   font-family: savate;
-  font-size: 18pt;
-  color: yellow;
-   background-color: pink;
+  font-size: 15pt;
+  color: green;
+   background-color: purple;
   mix-blend-mode: color-dodge;
 }
 
@@ -98,4 +119,10 @@ img{
   right: auto;
 
 }
-*/
+
+
+.body:hover{
+animation-name: blink;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
