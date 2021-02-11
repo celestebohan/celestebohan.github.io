@@ -2,8 +2,20 @@
   font-family: futura;
   src: url(./FuturaBook.woff);
 }
+@font-face {
+  font-family: spacegroteskbold;
+  src: url(./SpaceGrotesk-Bold.woff);
+}
 
+@font-face{
+  font-family: savate;
+  src: url(./savate-regular-webfont.woff);
+}
 
+@font-face{
+  font-family: spacegroteskregular;
+  src:url(SpaceGrotesk-Regular.woff);
+}
 h1{
   font-size: 62pt;
   font-family: futura;
@@ -18,18 +30,61 @@ h1{
 h2{
   font-size: 24pt;
   font-family: futura;
+  text-align: center;
+  color: purple;
+  background-color: green;
 
 }
 p{
   font-size: 12pt;
-  font-family: futura;
-  color: grey;
+  font-family: spacegroteskregular;
+  color: darkgrey;
 }
 
+blockquote{
+  font-family: savate;
+  font-size: 18pt;
+  color: yellow;
+   background-color: pink;
+  mix-blend-mode: color-dodge;
+}
+
+figure{
+  height: 25%;
+  width: 25%;
+}
+
+figcaption{
+  color: pink;
+}
+#fuller1972{
+  position: absolute;
+  mix-blend-mode: difference;
+  left: 137px;
+  top: 5px;
+
+
+}
+
+
+#sphere{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#fuller1910{
+  position: absolute;
+  mix-blend-mode: difference;
+  right: 5px;
+  top: 5px;
+  height: 550px;
+  width: 450px;
+}
 #bio{
   position: absolute;
   right: 7px;
-  top: 10px;
+  top: 1350px;
 }
 
 html{
