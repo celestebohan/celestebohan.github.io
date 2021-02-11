@@ -81,24 +81,104 @@ html{
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
   position: absolute;
   left: 2400px;
+  top: 210px;
+
+
+}
+
+.blob6{
+  width: 575px;
+  height: 575px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 3000px;
+  top: 50px;
+
+
+}
+
+.blob7{
+  width: 575px;
+  height: 575px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 3700px;
+  top: 300px;
+
+
+}
+
+.blob8{
+  width: 575px;
+  height: 575px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 4500px;
+  top: 245px;
+
+
+}
+
+.blob9{
+  width: 575px;
+  height: 575px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 5100px;
+  top: 5px;
+
+
+}
+.blob10{
+  width: 575px;
+  height: 575px;
+  background-color: #03080E;
+  background-size: cover;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: absolute;
+  left: 5750px;
   top: 300px;
 
 
 }
 
 
+
 #p2{
   text-align: center;
   position: absolute;
   text-shadow: 0,0, 30px, white;
-  left: 750px;
+  left: 700px;
   top: 140px;
   color: white;
 }
 
 
+#p4{
+  text-align: center;
+  position: absolute;
+  text-shadow: 0,0, 30px, white;
+  left: 2050px;
+  top: 140px;
+  color: white;
+}
 
-
+#p5{
+  text-align: center;
+  position: absolute;
+  text-shadow: 0,0, 30px, white;
+  left: 2700px;
+  top: 240px;
+  color: white;
+}
 
 
 .blob:hover {
@@ -111,5 +191,16 @@ html{
 }.blob4:hover {
   box-shadow: 0 0 100px;
 }.blob5:hover {
+  box-shadow: 0 0 100px;
+}
+.blob6:hover {
+  box-shadow: 0 0 100px;
+}.blob7:hover {
+  box-shadow: 0 0 100px;
+}.blob8:hover {
+  box-shadow: 0 0 100px;
+}.blob9:hover {
+  box-shadow: 0 0 100px;
+}.blob10:hover {
   box-shadow: 0 0 100px;
 }
