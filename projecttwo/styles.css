@@ -1,6 +1,27 @@
 html{
   background-color: #06121D;
 }
+#p1{
+  text-align: center;
+  position: absolute;
+  text-shadow: 0,0, 30px, white;
+  left: 30px;
+  top: 130px;
+  color: white;
+
+  /* color: #03080E; */
+
+}
+
+#p3{
+  text-align: center;
+  position: absolute;
+  text-shadow: 0,0, 30px, white;
+  left: 1350px;
+  top: 130px;
+  color: white;
+
+}
 
  .blob{
   width: 550px;
@@ -8,7 +29,7 @@ html{
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: absolute;
+  position: relative;
   left: 5px;
   top: 50px;
 
@@ -65,17 +86,18 @@ html{
 
 }
 
-#p1{
+
+#p2{
   text-align: center;
   position: absolute;
   text-shadow: 0,0, 30px, white;
-  left: 30px;
-  top: 130px;
+  left: 750px;
+  top: 140px;
   color: white;
-
-  /* color: #03080E; */
-
 }
+
+
+
 
 
 
