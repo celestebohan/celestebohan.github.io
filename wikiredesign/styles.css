@@ -60,7 +60,15 @@ h2:hover{
   color: green;
   background-color: purple;
 }
+h3{
+  color: purple;
+  background-color: green;
+}
 
+h3:hover{
+  color: green;
+  background-color: purple;
+}
 h4{
 color: green;
 background-color: purple;
@@ -85,6 +93,11 @@ h6{
   color: green;
   background-color: purple;
 }
+
+h6:hover{
+  color: purple;
+  background-color: green;
+}
 p{
   font-size: 12pt;
   font-family: futura;
@@ -107,11 +120,17 @@ figure{
 figcaption{
   color: pink;
 }
+figure:hover{
+  animation-name: blink;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+}
 #fuller1972{
   position: absolute;
   mix-blend-mode: difference;
   left: 137px;
-  top: 5px;
+  top: 10px;
 
 
 }
@@ -133,14 +152,23 @@ margin-right: auto;
 }
 #bio{
   font-size: 15pt;
-  font color: blue;
+  color: lavender;
   text-align: center;
 }
+
+#stats{
+  text-align: right;
+  color: pink;
+
+
+}
+
 
 html{
   background-image: linear-gradient(to top left, purple, green);
   background-attachment: fixed;
   font-family: futura;
+
 }
 img{
   height: 125%;
@@ -150,7 +178,12 @@ img{
 }
 
 
-.body:hover{
+h1:hover{
+animation-name: blink;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+#bio:hover{
 animation-name: blink;
 animation-duration: 4s;
 animation-iteration-count: infinite;

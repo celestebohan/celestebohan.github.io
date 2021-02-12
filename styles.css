@@ -1,7 +1,22 @@
+@font-face{
+  font-family: savate;
+  src: url(./savate-regular-webfont.woff);
+}
 html{
   text-align: center;
 }
 
+h2{
+  font-family: savate;
+}
+
+h3{
+  font-family: savate;
+}
+
+a{
+  font-family: savate;
+}
 p{
   text-align: center;
 }
