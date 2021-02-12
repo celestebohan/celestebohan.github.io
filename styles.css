@@ -8,17 +8,24 @@ html{
 
 h2{
   font-family: savate;
+  color: #b04a30;
 }
 
 h3{
   font-family: savate;
+  color: #b04a30;
 }
 
 a{
   font-family: savate;
+  color: #b04a30;
 }
 p{
   text-align: center;
+}
+
+a:visited{
+  color: #b04a30;
 }
   #web-ring {
     position: fixed;
