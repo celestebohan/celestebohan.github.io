@@ -21,13 +21,16 @@ h1{
   font-size: 45pt;
 }
 html{
-  background-color: #06121D;
+  background-image:linear-gradient(#06121D,#0D283D ) ;
   font-family: librebaskerville;
+
+
 }
 
 p{
   position: fixed;
   top: 50px;
+  left:300px;
   z-index: 300;
 
 }
@@ -38,15 +41,13 @@ p{
 
 }
 
-@keyframes mobile {
+@keyframes shadow {
   0%{box-shadow: 0 0 0px;}
   50%{box-shadow: 0 0 50px;}
   100%{box-shadow: 0 0 100px;}
 }
 .blobs{
-  animation-name: mobile;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
+
   z-index: -20;
 }
 #start{
@@ -69,13 +70,18 @@ animation-iteration-count: infinite;}
 
 
 #p1:hover{
-  background-color: grey;
+  background-color:(206, 198,198, 0.6);
 
 }
 
  .blob{
-  width: 650px;
-  height: 650px;
+   animation-name: shadow;
+   animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+
+  width: 500px;
+  height: 500px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
@@ -213,9 +219,9 @@ animation-iteration-count: infinite;}
 
 
 
-.blob:hover {
+/* .blob:hover {
   box-shadow: 0 0 100px;
-}
+} */
 .blob2:hover {
   box-shadow: 0 0 100px;
 }.blob3:hover {
