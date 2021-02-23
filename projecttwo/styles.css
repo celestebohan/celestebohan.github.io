@@ -46,35 +46,6 @@ html{
 
 }
 
-p{
-  position: fixed;
-  top: 50px;
-  max-width: 400px;
-  z-index: 300;
-}
-
-
-#start{
-  /* position: absolute; */
-  color: #192029;
-  animation-name: start;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-
-
-}
-
-
-
-#start{
-  /* position: absolute; */
-animation-name: white;
-animation-duration: 5s;
-animation-iteration-count: infinite;}
-
-
-}
-
 
 
 
@@ -220,33 +191,40 @@ z-index: -200;
 z-index: -200;
 
 }
-
-
-
-
-/* .blob:hover {
-  box-shadow: 0 0 100px;
-} */
-.blob2:hover {
-  box-shadow: 0 0 100px;
-}.blob3:hover {
-  box-shadow: 0 0 100px;
-}.blob4:hover {
-  box-shadow: 0 0 100px;
-}.blob5:hover {
-  box-shadow: 0 0 100px;
+p{
+  position: fixed;
+  top: 50px;
+  max-width: 400px;
+  z-index: 300;
 }
-.blob6:hover {
-  box-shadow: 0 0 100px;
-}.blob7:hover {
-  box-shadow: 0 0 100px;
-}.blob8:hover {
-  box-shadow: 0 0 100px;
-}.blob9:hover {
-  box-shadow: 0 0 100px;
-}.blob10:hover {
-  box-shadow: 0 0 100px;
+
+#p1:hover{
+  background-color: rgba(161,189,211,0.2);
+  max-width: 800px;
 }
+
+#start{
+  /* position: absolute; */
+  color: #192029;
+  animation-name: start;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+
+
+}
+
+
+
+#start{
+  /* position: absolute; */
+animation-name: white;
+animation-duration: 5s;
+animation-iteration-count: infinite;}
+
+
+}
+
+
 
 @media only screen and (max-width:767px) {
   html{
