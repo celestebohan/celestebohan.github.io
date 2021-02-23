@@ -20,45 +20,40 @@
 }
 
 
-
-}
-
 h1{
   font-size: 45pt;
 }
 html{
   background-image:linear-gradient(#06121D,#0D283D ) ;
   font-family: librebaskerville;
-
-
 }
 
-#text:hover{
-  background-color:grey;
+.blob{
+  animation-name: shadow;
+  animation-duration: 7s;
+ animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+ width: 500px;
+ height: 500px;
+ background-color: #03080E;
+ background-size: cover;
+ border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+ position: fixed;
+ left: 5px;
+ top: 50px;
+ z-index: -200;
 
 }
-
-
 
 p{
   position: fixed;
   top: 50px;
   max-width: 400px;
   z-index: 300;
-
-}
-
-#body{
-  background-color: white;
-
-
 }
 
 
-.blobs{
-
-  z-index: -20;
-}
 #start{
   /* position: absolute; */
   color: #192029;
@@ -81,23 +76,7 @@ animation-iteration-count: infinite;}
 }
 
 
- .blob{
-   animation-name: shadow;
-   animation-duration: 7s;
-  animation-timing-function: ease-in-out;
-   animation-iteration-count: infinite;
 
-  width: 500px;
-  height: 500px;
-  background-color: #03080E;
-  background-size: cover;
-  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: fixed;
-  left: 5px;
-  top: 50px;
-  z-index: -200;
-
-}
 
 .blob2{
   animation-name: shadow;
@@ -274,9 +253,11 @@ z-index: -200;
     font-size: 14pt;
 
   }
-  .blobs
-  {width: 45%;
-  height: 45%}
+
+  .blobs{
+    width: 45%;
+    height: 45%}
+
   @keyframes mobile {
     0%{box-shadow: 0 0 0px;}
     50%{box-shadow: 0 0 50px;}
