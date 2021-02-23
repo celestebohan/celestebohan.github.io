@@ -28,6 +28,9 @@ p{
   z-index: 1;
 }
 
+.blobs{
+  z-index: -2;
+}
 #start{
   /* position: absolute; */
   color: #192029;
