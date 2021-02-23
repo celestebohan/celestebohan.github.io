@@ -23,6 +23,11 @@ html{
   font-family: librebaskerville;
 }
 
+p{
+  position: fixed;
+  z-index: 1;
+}
+
 #start{
   /* position: absolute; */
   color: #192029;
@@ -304,6 +309,9 @@ animation-iteration-count: infinite;}
 }
 
 @media (max-width:375px) {
+  html{
+    font-size: 62.5%;
+  }
   .blobs
   {width: 45%;
   height: 45%}
