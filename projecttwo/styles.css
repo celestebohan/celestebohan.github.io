@@ -15,6 +15,8 @@
 
 
 
+}
+
 h1{
   font-size: 45pt;
 }
@@ -27,9 +29,24 @@ p{
   position: fixed;
   top: 50px;
   z-index: 300;
+
 }
 
+#body{
+  background-color: white;
+
+
+}
+
+@keyframes mobile {
+  0%{box-shadow: 0 0 0px;}
+  50%{box-shadow: 0 0 50px;}
+  100%{box-shadow: 0 0 100px;}
+}
 .blobs{
+  animation-name: mobile;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
   z-index: -20;
 }
 #start{
@@ -51,6 +68,10 @@ animation-duration: 5s;
 animation-iteration-count: infinite;}
 
 
+#p1:hover{
+  background-color: grey;
+
+}
 
  .blob{
   width: 650px;
@@ -86,7 +107,7 @@ animation-iteration-count: infinite;}
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: absolute;
+  position: fixed;
   left: 100px;
   top: 800px;
 
@@ -99,7 +120,7 @@ animation-iteration-count: infinite;}
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: absolute;
+  position: fixed;
   left: 1100px;
   top: 1100px;
 
@@ -112,7 +133,7 @@ animation-iteration-count: infinite;}
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: absolute;
+  position: fixed;
   left: 1700px;
   top: 1600px;
 
@@ -218,7 +239,7 @@ animation-iteration-count: infinite;}
 
 @media only screen and (max-width:767px) {
   html{
-    font-size: 62.5%;
+    font-size: 14pt;
 
   }
   .blobs
