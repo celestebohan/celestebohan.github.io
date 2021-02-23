@@ -13,6 +13,12 @@
   100%{color: white;}
 }
 
+@keyframes shadow {
+  0%{box-shadow: 0 0 0px;}
+  50%{box-shadow: 0 0 50px;}
+  100%{box-shadow: 0 0 100px;}
+}
+
 
 
 }
@@ -30,7 +36,7 @@ html{
 p{
   position: fixed;
   top: 50px;
-  left:300px;
+  max-width: 400px;
   z-index: 300;
 
 }
@@ -41,11 +47,7 @@ p{
 
 }
 
-@keyframes shadow {
-  0%{box-shadow: 0 0 0px;}
-  50%{box-shadow: 0 0 50px;}
-  100%{box-shadow: 0 0 100px;}
-}
+
 .blobs{
 
   z-index: -20;
@@ -69,8 +71,9 @@ animation-duration: 5s;
 animation-iteration-count: infinite;}
 
 
+}
 #p1:hover{
-  background-color:(206, 198,198, 0.6);
+  background-color:grey;
 
 }
 
@@ -93,14 +96,20 @@ animation-iteration-count: infinite;}
 }
 
 .blob2{
-  width: 625px;
-  height: 625px;
+  animation-name: shadow;
+  animation-duration: 7s;
+ animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  width: 400px;
+  height: 400px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
   position: fixed;
-  left: 650px;
-  top: 175px;
+  left: 550px;
+  top: -20px;
+  z-index: -200;
 
 
 }
@@ -108,54 +117,67 @@ animation-iteration-count: infinite;}
 
 
 .blob3{
-  width: 1000px;
-  height: 600px;
+
+  animation-name: shadow;
+  animation-duration: 7s;
+ animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  width: 400px;
+  height: 500px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
   position: fixed;
-  left: 100px;
-  top: 800px;
-
+  left: -40px;
+  top: 600px;
+z-index: -200;
 
 }
 
 .blob4{
-  width: 700px;
-  height: 700px;
+  animation-name: shadow;
+  animation-duration: 7s;
+ animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  width: 400px;
+  height: 400px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
   position: fixed;
-  left: 1100px;
-  top: 1100px;
-
+  left: 400px;
+  top: 400px;
+z-index: -200;
 
 }
 
 .blob5{
-  width: 575px;
-  height: 575px;
+  animation-name: shadow;
+  animation-duration: 7s;
+ animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  width: 200px;
+  height: 675px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
   position: fixed;
-  left: 1700px;
-  top: 1600px;
-
+  left: 800px;
+  top: 350px;
+z-index: -200;
 
 }
 
 .blob6{
-  width: 800px;
-  height: 800px;
+  width: 400px;
+  height: 400px;
   background-color: #03080E;
   background-size: cover;
   border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
-  position: absolute;
-  left: 2300px;
-  top: 1000px;
-
+  position: fixed;
+  left: 1500px;
+  top: 100px;
+z-index: -200;
 
 }
 
@@ -170,7 +192,7 @@ animation-iteration-count: infinite;}
   left: 3100px;
   top: 700px;
 
-
+z-index: -200;
 }
 
 
@@ -183,7 +205,7 @@ animation-iteration-count: infinite;}
   position: absolute;
   left: 2700px;
   top: 200px;
-
+z-index: -200;
 
 }
 
@@ -198,7 +220,7 @@ animation-iteration-count: infinite;}
   position: absolute;
   left: 3300px;
   top: 100px;
-
+z-index: -200;
 
 }
 
@@ -212,7 +234,7 @@ animation-iteration-count: infinite;}
   position: absolute;
   left: 4100px;
   top: 0px;
-
+z-index: -200;
 
 }
 
