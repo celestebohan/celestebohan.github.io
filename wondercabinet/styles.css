@@ -1,0 +1,43 @@
+@font-face {
+  font-family: baskerville;
+  src: url(./LibreBaskerville-Regular.woff);
+}
+
+html{
+  background-color: #D87721;
+}
+h1{
+  font-size: 50pt;
+  text-align: center;
+  font-family: baskerville;
+  color: brown;
+}
+
+img{
+  filter: grayscale(25%);
+}
+
+#web{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+}
+
+#mobile{
+  display: none;
+}
+
+@media (max-width:500px) {
+  #mobile{
+    display: flex;
+        flex-direction: column;
+  }
+#web{
+  display: none;
+
+}
+
+
+
+}
