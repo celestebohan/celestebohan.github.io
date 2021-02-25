@@ -23,12 +23,72 @@
 h1{
   font-size: 45pt;
   text-align: right;
+  position: fixed;
+  z-index: 200;
+  right: 10px;
+  top: 10px;
 }
 html{
   background-image:linear-gradient(#06121D,#0D283D ) ;
   font-family: librebaskerville;
 }
 
+.nav1{
+  width: 100px;
+  height: 100px;
+  background-color: #0D283D;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: fixed;
+  z-index: 200;
+  right: 90px;
+  top: 125px;
+
+
+}
+.nav2{
+  width: 100px;
+  height: 100px;
+  background-color: #0D283D;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: fixed;
+  z-index: 200;
+  right: 90px;
+top: 250px;
+
+}
+.nav3{
+  width: 100px;
+  height: 100px;
+  background-color: #0D283D;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: fixed;
+  z-index: 200;
+  right: 90px;
+  top: 375px;
+
+}
+.nav4{
+  width: 100px;
+  height: 100px;
+  background-color: #0D283D;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: fixed;
+  z-index: 200;
+  right: 90px;
+  top: 500px;
+
+}
+.nav5{
+  width: 100px;
+  height: 100px;
+  background-color: #0D283D;
+  border-radius: 36% 64% 56% 44% / 67% 35% 65% 33%;
+  position: fixed;
+  z-index: 200;
+  right: 90px;
+  top: 625px;
+
+}
 .blob{
   animation-name: shadow;
   animation-duration: 7s;
@@ -77,6 +137,7 @@ html{
   animation-duration: 7s;
  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  animation-delay: 6s;
   width: 400px;
   height: 500px;
   background-color: #03080E;
@@ -94,6 +155,7 @@ z-index: -200;
   animation-duration: 7s;
  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  animation-delay: 1s;
   width: 400px;
   height: 400px;
   background-color: #03080E;
@@ -111,6 +173,7 @@ z-index: -200;
   animation-duration: 7s;
  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
+  animation-delay: 5s;
   width: 200px;
   height: 675px;
   background-color: #03080E;
@@ -197,45 +260,54 @@ p{
   top: 50px;
   max-width: 50%;
   z-index: 300;
+
+
+}
+
+#text{
+  margin: 25px;
+  padding: 10px;
 }
 
 
 #p1:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
+  mix-blend-mode: screen;
+
 }
 #p2:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 #p3:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 #p4:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 #p5:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 #p6:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 #p7:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }#p8:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }#p9:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }#p10:hover{
   background-color: rgba(161,189,211,0.2);
-  max-width: 800px;
+  max-width: screen;
 }
 
 #start{
@@ -260,21 +332,30 @@ animation-iteration-count: infinite;}
 }
 
 
+@media (max-width:500px){
 
-@media only screen and (max-width:767px) {
+p{
+  color: white;
+}
+}
+/* @media only screen (max-width:600px) {
   html{
     font-size: 14pt;
 
+
   }
 
+  p{
+    color: white;
+  }
+
+#nav1{
+  background-color: white;
+}
   .blobs{
     width: 45%;
-    height: 45%}
+    height: 45%;}
 
-  @keyframes mobile {
-    0%{box-shadow: 0 0 0px;}
-    50%{box-shadow: 0 0 50px;}
-    100%{box-shadow: 0 0 100px;}
-  }
 
-}
+
+} */
