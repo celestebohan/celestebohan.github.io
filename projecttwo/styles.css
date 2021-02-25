@@ -332,15 +332,14 @@ animation-iteration-count: infinite;}
 }
 
 
-@media only screen and (max-width:767px){
-
+@media only screen and (max-width:676px){
 p{
   color: white;
 }
-
-
-#nav1{
+.nav{
   display: none;
 }
+
+
 
 }
