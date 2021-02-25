@@ -50,6 +50,10 @@ img{
 }
 
  @media (max-width:500px) {
+img{
+  max-width: 415px;
+  object-fit: cover;
+}
 .container{
     display: flex;
     flex-direction: column;
