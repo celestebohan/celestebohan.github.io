@@ -2,6 +2,13 @@
   font-family: baskerville;
   src: url(./LibreBaskerville-Regular.woff);
 }
+@keyframes glow {
+
+  0%{ text-shadow:1px,1px,brown;}
+  46%{text-shadow: 2px,2px,brown;}
+  67%{text-shadow: 3px,3px,brown;}
+  100%{text-shadow: 2px,2px,brown;}
+}
 
 html{
   background-color: #D87721;
@@ -11,33 +18,29 @@ h1{
   text-align: center;
   font-family: baskerville;
   color: brown;
+  animation-name: glow;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 img{
-  filter: grayscale(25%);
+  filter: grayscale(50%);
+  height: 700px;
+  width: 500px;
+    margin: 15px;
 }
-
-#web{
+.container{
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
+
 }
 
-#mobile{
-  display: none;
-}
-
-@media (max-width:500px) {
-  #mobile{
+ @media (max-width:500px) {
+.container{
     display: flex;
         flex-direction: column;
   }
-#web{
-  display: none;
-
-}
-
-
-
-}
