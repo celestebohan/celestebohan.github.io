@@ -22,7 +22,11 @@ h1{
   color: brown;
 animation: glow 1s ease-in-out infinite alternate;
 }
-
+p{
+  text-align: center;
+  font-family: baskerville;
+  color: brown;
+}
 
 
 img{
@@ -32,13 +36,6 @@ img{
     margin: 15px;
   object-fit: cover;
 }
-
-/* .home{
-  position: fixed;
-  z-index: 200;
-  left: 400px;
-  top: 500px;
-  object-fit: cover; */
 
 
 .container{
@@ -58,6 +55,5 @@ img{
     flex-direction: column;
   }
 
-  .home{
-    display: none;
+
   }
