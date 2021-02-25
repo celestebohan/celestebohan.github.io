@@ -2,12 +2,14 @@
   font-family: baskerville;
   src: url(./LibreBaskerville-Regular.woff);
 }
-@keyframes glow {
-
-  0%{ text-shadow:1px,1px,brown;}
-  46%{text-shadow: 2px,2px,brown;}
-  67%{text-shadow: 3px,3px,brown;}
-  100%{text-shadow: 2px,2px,brown;}
+/* effect adapted from https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f9aa2b, 0 0 40px #f9aa2b, 0 0 50px #f9aa2b, 0 0 60px #f9aa2b, 0 0 70px #f9aa2b;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #dd7c07, 0 0 40px #dd7c07, 0 0 50px #dd7c07, 0 0 60px #dd7c07, 0 0 70px #dd7c07, 0 0 80px #dd7c07;
+  }
 }
 
 html{
@@ -18,10 +20,7 @@ h1{
   text-align: center;
   font-family: baskerville;
   color: brown;
-  animation-name: glow;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
+animation: glow 1s ease-in-out infinite alternate;
 }
 
 
@@ -35,7 +34,6 @@ img{
 }
 
 /* .home{
-
   position: fixed;
   z-index: 200;
   left: 400px;
