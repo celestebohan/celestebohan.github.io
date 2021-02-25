@@ -332,30 +332,15 @@ animation-iteration-count: infinite;}
 }
 
 
-@media (max-width:500px){
+@media only screen and (max-width:767px){
 
 p{
   color: white;
 }
-}
-/* @media only screen (max-width:600px) {
-  html{
-    font-size: 14pt;
 
-
-  }
-
-  p{
-    color: white;
-  }
 
 #nav1{
-  background-color: white;
+  display: none;
 }
-  .blobs{
-    width: 45%;
-    height: 45%;}
 
-
-
-} */
+}
