@@ -24,23 +24,42 @@ h1{
   animation-timing-function: ease-in-out;
 }
 
+
+
 img{
   filter: grayscale(50%);
-  height: 700px;
-  width: 500px;
+  height: 600px;
+  width: 400px;
     margin: 15px;
+  object-fit: cover;
 }
+
+/* .home{
+
+  position: fixed;
+  z-index: 200;
+  left: 400px;
+  top: 500px;
+  object-fit: cover; */
+
+
 .container{
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  max-width: 816px
   padding: 20px;
   margin: 20px;
+  justify-content: center;
 
 }
 
  @media (max-width:500px) {
 .container{
     display: flex;
-        flex-direction: column;
+    flex-direction: column;
+  }
+
+  .home{
+    display: none;
   }
