@@ -316,16 +316,6 @@ p{
   max-width: screen;
 }
 
-#start{
-  /* position: absolute; */
-  color: #192029;
-  animation-name: start;
-  animation-duration: 4s;
-  animation-iteration-count: 1;
-
-
-}
-
 
 
 #start{
