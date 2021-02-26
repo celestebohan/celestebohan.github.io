@@ -335,6 +335,13 @@ animation-iteration-count: infinite;
   background-color: #0D283D;
   opacity: 50%;
   color: white;
+
+}
+#start{
+  animation-name: white;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 .nav{
   display: none;
