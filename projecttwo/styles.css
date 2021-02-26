@@ -34,6 +34,10 @@ html{
   font-family: librebaskerville;
 }
 
+a{
+  color: #06121D;
+  text-decoration: underline;
+}
 .nav1{
   width: 100px;
   height: 100px;
@@ -43,6 +47,10 @@ html{
   z-index: 200;
   right: 90px;
   top: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 
 }
@@ -55,6 +63,9 @@ html{
   z-index: 200;
   right: 90px;
 top: 250px;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 .nav3{
@@ -66,6 +77,9 @@ top: 250px;
   z-index: 200;
   right: 90px;
   top: 375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .nav4{
@@ -77,6 +91,9 @@ top: 250px;
   z-index: 200;
   right: 90px;
   top: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .nav5{
@@ -88,6 +105,9 @@ top: 250px;
   z-index: 200;
   right: 90px;
   top: 625px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 .blob{
