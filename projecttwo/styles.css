@@ -331,7 +331,7 @@ animation-iteration-count: infinite;
 
 
 @media only screen and (max-width:676px){
-p{
+#text div{
   color: white;
 }
 .nav{
