@@ -319,7 +319,7 @@ p{
 
 
 #start{
-  /* position: absolute; */
+display: inline-block;
 animation-name: white;
 animation-duration: 5s;
 animation-iteration-count: infinite;
@@ -327,17 +327,24 @@ animation-iteration-count: infinite;
 }
 
 
-}
+
 
 
 @media only screen and (max-width:676px){
 #text div{
+  background-color: #0D283D;
+  opacity: 50%;
   color: white;
 }
 .nav{
   display: none;
 }
-
+h1{
+  position: absolute;
+  left: auto;
+  top: auto;
+  z-index: 0;
+}
 
 
 }
