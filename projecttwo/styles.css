@@ -21,6 +21,7 @@
 
 
 h1{
+  display: inline-block;
   font-size: 45pt;
   text-align: right;
   position: fixed;
@@ -28,6 +29,16 @@ h1{
   right: 10px;
   top: 10px;
 
+}
+
+h2{
+  display: inline-block;
+  font-size: 24pt;
+  text-align: right;
+  position: fixed;
+  z-index: 200;
+  right: 175px;
+  top: 80px;
 }
 html{
   background-image:linear-gradient(#06121D,#0D283D ) ;
@@ -372,6 +383,11 @@ h1{
   top: auto;
   z-index: 0;
 }
-
+h2{
+  position: absolute;
+  left: auto;
+  top: auto;
+  z-index: 0;
+}
 
 }
