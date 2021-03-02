@@ -281,43 +281,48 @@ p{
 }
 
 #p1{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+
 }
 #p2{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p3{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p4{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p5{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p6{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p7{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p8{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p9{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 #p10{
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 
 #text{
+  max-width: 875px;
   margin: 25px;
   padding: 10px;
   line-height: 1.5;
   letter-spacing:0.8pt;
   margin-top: 100px;
+
+
+
 
 
 }
@@ -327,6 +332,7 @@ p{
   background-color: rgba(161,189,211,0.2);
   max-width: 100vw;
   mix-blend-mode: screen;
+
 
 }
 #p2:hover{
