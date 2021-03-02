@@ -314,7 +314,7 @@ p{
 
 
 #text{
-  max-width: 875px;
+  max-width:80vw;
   margin: 25px;
   padding: 10px;
   line-height: 1.5;
@@ -400,7 +400,10 @@ animation-iteration-count: infinite;
 
 
 
-
+@media only screen and (max-width:1180px){
+.nav{
+  display: none;
+}
 
 @media only screen and (max-width:676px){
 #text div{
@@ -432,7 +435,8 @@ p{
   z-index: 300;
 }
 h1{
-  font-size: 2rem;
+  font-size: 45pt;
+  max-width: 90vw;
   color: white;
   mix-blend-mode: screen;
   position: absolute;
@@ -444,7 +448,8 @@ h1{
 
 }
 h2 {
-  font-size: 1rem;
+  font-size: 24pt;
+  max-width: 90vw;
   text-align: left;
 color: white;
 mix-blend-mode: color;
