@@ -438,6 +438,7 @@ h1{
   right: auto;
   top: 5px;
   z-index: -50;
+  padding-right: 5px;
 
 }
 h2 {
@@ -448,6 +449,7 @@ mix-blend-mode: color;
   left: auto;
   top: 175px;
   z-index: -50;
+  padding-left: 5px;
 }
 
 h2:hover:none{
