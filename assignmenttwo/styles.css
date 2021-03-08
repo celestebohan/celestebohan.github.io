@@ -1,3 +1,13 @@
+ @keyframes blink {
+  25%{background-color: rgb(255,0,0);}
+  50%{background-color: rgb(0,255,0);}
+  75%{background-color: rgb(0,0,255);}
+  100%{background-color: rgb(0,0,0);}
+}
+
+
+
+
 .stripes{
   width: 100vw;
   height: 100vh;
@@ -9,6 +19,7 @@
 
 .black{
  background-color:black;
+
 }
 
 .white{
@@ -18,4 +29,35 @@ background-color:white;
 
 .black:hover{
   background-color:white;
+}
+
+@media (max-width:500px) {
+
+  .black{
+    display:none;
+  }
+  .white{
+    display:none;
+
+  }
+
+#circle{
+
+  background-color: black;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  height: 90vh;
+  width: 90vw;
+  border-radius: 50%;
+  filter: blur(100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 }
