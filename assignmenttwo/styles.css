@@ -1,0 +1,21 @@
+.stripes{
+  width: 100vw;
+  height: 100vh;
+  display:grid;
+
+  grid-template-rows: repeat(12);
+
+}
+
+.black{
+ background-color:black;
+}
+
+.white{
+background-color:white;
+
+}
+
+.black:hover{
+  background-color:white;
+}
