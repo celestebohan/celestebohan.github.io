@@ -1,0 +1,13 @@
+@font-face {
+  font-family: accent;
+  src: url(./accent.ttf);
+}
+
+
+h2{
+  width: 100vw;
+  height: 5vh;
+  display:grid;
+  font-family: accent;
+  grid-template-rows: repeat(100);
+}
