@@ -16,6 +16,7 @@ base("paint").select({}).eachPage(gotPageOfPaint, gotAllPaint);
 // an empty array to hold our book data
 const paint = [];
 
+
 // callback function that receives our data
 function gotPageOfPaint(records, fetchNextPage) {
   console.log("gotPageOfPaint()");
@@ -44,26 +45,44 @@ function gotAllPaint(err) {
 // just loop through the books and console.log them
 function consoleLogPaint() {
   console.log("consoleLogPaint()");
-  paint.forEach((hex) => {
+  paint.forEach((paint) => {
     console.log("paint:", paint);
   });
 }
 
 // loop through the books, create an h2 for each one, and add it to the page
 function showPaint() {
-  console.log("showBooks()");
+  console.log("showPaints()");
+  
+
+
+
   paint.forEach((paint) => {
-    const h2 = document.createElement("h2");
-    h2.innerText = paint.fields.title;
-    document.body.appendChild(h2);
-  });
+    var paintContainer = document.createElement("div");
+    paintContainer.classList.add("paint-container");
+    paintContainer.style.backgroundColor = paint.fields.hex;
+    document.querySelector(".container").append(paintContainer);
+
+var paintName = document.createElement("h2");
+paintName.classList.add("paint-name");
+paintName.innerText = paint.fields.paint;
+paintContainer.append(paintName);
+
+var paintImage = document.createElement("img");
+paintImage.classList.add("paint-image");
+paintImage.src = paint.fields.image[0].url;
+paintContainer.append(paintImage);
+
+
+//add event listener for when user clicks on paint color the image will show
+paintContainer.addEventListener("click", function(event) {
+      paintImage.classList.toggle("active");
+      
+    });
+
+});
 }
 
 
-function draw(){
-  fill(255,255,255);
-ellipse(mouseX, mouseY, 100,100,)
 
 
-
-}
